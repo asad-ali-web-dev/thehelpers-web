@@ -1,11 +1,11 @@
 <template>
-    <div class="w-screen bg-white" style="box-shadow: 0px 3px 15px #16171C1C;">
+    <div class="w-screen bg-white">
         <div class="mx-24 h-[85px] flex flex-row items-center justify-center lg:justify-between">
             <div class="py-12">
                 <img class="h-12" src="../assets/TheHelpers.svg" alt="The Helpers Logo SVG">
             </div>
             <div class="hidden lg:flex lg:flex-row lg:gap-8 lg:h-[85px] lg:items-center">
-                <router-link class="flex items-center uppercase h-full px-6 text-[14px] text-helper-gray border-t-4 border-helper-yellow" v-for="(link, index) in navLinks" :key="index" :to="link.path">{{ link.name }}</router-link>
+                <router-link class="transition-all duration-500 flex items-center uppercase h-full px-6 text-[14px] text-helper-gray border-helper-yellow" :class="{ 'border-t-8 text-helper-yellow': $router.currentRoute.value.path === link.path }" v-for="(link, index) in navLinks" :key="index" :to="link.path">{{ link.name }}</router-link>
             </div>
         </div>
     </div>
@@ -17,17 +17,15 @@
             </div>
         </div>
     </div>
-    <div class="h-[65px] bg-helper-yellow hidden lg:flex flex-row items-center justify-center">
+    <div class="h-[45px] shadow-inner bg-helper-yellow hidden lg:flex flex-row items-center justify-center">
         <div class="flex flex-row items-center gap-7 h-full">
-            <p class="text-white text-xl">Lorem ipsum dolor sit amet.</p>
-            <button class="transition-all duration-500 capitalize px-4 hover:px-5 py-3 bg-white text-helper-yellow rounded-lg hover:shadow-lg">Donate Now</button>
+            <p class="text-white text-lg">Lorem ipsum dolor sit amet.</p>
+            <button class="transition-all duration-500 capitalize px-4 hover:px-5 h-[calc(100%-10px)] bg-white text-helper-yellow rounded-lg hover:shadow-lg">Donate Now</button>
         </div>
     </div>
 </template>
 
 <script>
-import { onMounted } from '@vue/runtime-core'
-
 export default {
     data: () => ({
         'navLinks': [
