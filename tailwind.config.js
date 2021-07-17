@@ -8,6 +8,9 @@ module.exports = {
         'helper-yellow': '#FFC060',
         'helper-black': '#212121',
         'helper-gray': '#C8C7C7'
+      },
+      fontFamily: {
+        'montserrat': ['Montserrat', 'sans-serif']
       }
     },
   },
