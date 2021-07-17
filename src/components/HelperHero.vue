@@ -1,5 +1,5 @@
 <template>
-    <div id="hero" class="select-none relative mt-20 lg:mt-32 w-full h-[46rem] bg-red-400 bg-no-repeat bg-center bg-cover">
+    <div id="hero" class="z-10 select-none relative mt-20 lg:mt-20 w-full h-[46rem] bg-red-400 bg-no-repeat bg-center bg-cover">
         <div class="z-10 absolute inset-0 bg-gray-900/60"></div>
         <div class="z-20 relative w-full p-8 lg:p-0 h-full flex flex-col items-center justify-center gap-5 font-montserrat">
             <h1 class="text-white text-3xl lg:text-6xl font-bold text-center">Lorem ipsum dolor sit amet.</h1>
