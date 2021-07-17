@@ -12,7 +12,7 @@
         </div>
     </div>
     <div class="w-full pb-12 flex flex-row items-center justify-center">
-        <button class="transition-all duration-700 hover:scale-[1.1] mt-6 rounded-md shadow-xl py-4 px-8 bg-gray-700 hover:bg-helper-yellow text-xl font-bold text-white hover:text-yellow-900">Donate now</button>
+        <button class="transition-all duration-700 hover:scale-[1.1] mt-6 rounded-md shadow-xl py-4 px-8 bg-gray-700 hover:bg-helper-yellow text-xl font-bold text-white hover:text-yellow-900">See More</button>
     </div>
 </template>
 

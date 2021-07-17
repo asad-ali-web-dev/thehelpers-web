@@ -6,7 +6,7 @@
                     <img class="h-12 select-none" draggable="false" src="../assets/TheHelpers.svg" alt="The Helpers Logo SVG">
                 </div>
                 <div class="hidden lg:flex lg:flex-row lg:gap-8 lg:h-[85px] lg:items-center">
-                    <router-link class="transition-all duration-500 flex items-center uppercase h-full px-6 text-[14px] text-helper-gray border-helper-yellow" :class="{ 'border-t-8 text-helper-yellow': $router.currentRoute.value.path === link.path }" v-for="(link, index) in navLinks" :key="index" :to="link.path">{{ link.name }}</router-link>
+                    <router-link class="transition-all duration-500 flex items-center uppercase h-full px-6 text-[14px] border-helper-yellow" :class="{ 'border-t-8 text-helper-yellow': $router.currentRoute.value.path === link.path, 'text-helper-gray': $router.currentRoute.value.path !== link.path }" v-for="(link, index) in navLinks" :key="index" :to="link.path">{{ link.name }}</router-link>
                 </div>
             </div>
         </div>
