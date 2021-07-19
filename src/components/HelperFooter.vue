@@ -1,5 +1,5 @@
 <template>
-    <div class="select-none mt-20 mb-[4.4rem] lg:mb-0 w-full h-96 lg:h-80 bg-helper-yellow shadow-inner flex items-center justify-center">
+    <div class="select-none mb-[4.4rem] lg:mb-0 w-full h-96 lg:h-80 bg-helper-yellow shadow-inner flex items-center justify-center" :class="{ 'mt-20': $router.currentRoute.value.path !== '/contact' }">
         <div class="w-full my-20 flex flex-col lg:flex-row items-start justify-between mx-24 gap-12 lg:gap-0">
             <div class="flex flex-col gap-5 items-start">
                 <img class="h-16" src="../assets/TheHelpers.svg" alt="The Helpers Logo SVG">

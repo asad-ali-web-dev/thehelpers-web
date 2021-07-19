@@ -19,7 +19,7 @@
             </div>
         </div>
     </div>
-    <div class="transition-all duration-1000 fixed z-20 top-0 h-[130px] w-full bg-red-400" :class="{ '-translate-y-full': isBelow }">
+    <div class="hidden lg:block transition-all duration-1000 fixed z-20 top-0 h-[130px] w-full bg-red-400" :class="{ '-translate-y-full': isBelow }">
         <div class="relative w-full h-full">
             <div class="absolute bottom-0 h-[45px] w-full shadow-inner bg-helper-yellow hidden lg:flex flex-row items-center justify-center">
                 <div class="flex flex-row items-center gap-7 h-full">
