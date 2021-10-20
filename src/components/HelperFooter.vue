@@ -4,6 +4,7 @@
             <div class="flex flex-col gap-5 items-start">
                 <img class="h-16" src="../assets/TheHelpers.svg" alt="The Helpers Logo SVG">
                 <p class="max-w-[50ch] font-montserrat font-medium">We are always with you.</p>
+                <p class="max-w-[50ch] font-montserrat font-medium">Join us to support those who are in need of your help and are waiting for a miracle to push them in the direction of a creative life.</p>
             </div>
             <div class="text-helper-black flex flex-row gap-5">
                 <a target="_blank" href="https://fb.me/thehelpersociety">
