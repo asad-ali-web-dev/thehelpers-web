@@ -3,7 +3,7 @@
         <div class="w-full my-20 flex flex-col lg:flex-row items-start justify-between mx-24 gap-12 lg:gap-0">
             <div class="flex flex-col gap-5 items-start">
                 <img class="h-16" src="../assets/TheHelpers.svg" alt="The Helpers Logo SVG">
-                <p class="max-w-[50ch] font-montserrat font-medium">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus iste et explicabo! Eum cumque possimus voluptates iusto.</p>
+                <p class="max-w-[50ch] font-montserrat font-medium">We are always with you.</p>
             </div>
             <div class="text-helper-black flex flex-row gap-5">
                 <a target="_blank" href="https://fb.me/thehelpersociety">

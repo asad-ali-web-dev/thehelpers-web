@@ -2,7 +2,7 @@ import { createRouter, createWebHistory } from 'vue-router'
 
 // pages
 import Home from '../pages/Home.vue'
-import Donations from '../pages/Donations.vue'
+import Donate from '../pages/Donate.vue'
 import Contact from '../pages/Contact.vue'
 import About from '../pages/About.vue'
 
@@ -13,9 +13,9 @@ const routes = [
         component: Home
     },
     {
-        path: '/donations',
-        name: 'Donations',
-        component: Donations
+        path: '/donate',
+        name: 'Donate',
+        component: Donate
     },
     {
         path: '/contact',

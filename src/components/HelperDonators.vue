@@ -7,7 +7,7 @@
                     <div class="transition-all duration-700 absolute z-20 inset-0 bg-gray-400/0 hover:bg-gray-400/40 rounded-md"></div>
                     <div class="relative z-10 flex flex-col items-center gap-8">
                         <div class="group-hover:scale-[0.9] transition-all duration-700 w-32 h-32 bg-helper-yellow rounded-full bg-no-repeat bg-center bg-cover border-4 border-helper-yellow group-hover:border-helper-gray" style="background-image: url(https://i.pravatar.cc/300);"></div>
-                        <h1 class="group-hover:scale-[0.9] transition-all duration-700 text-helper-yellow group-hover:text-helper-gray text-2xl font-medium font-montserrat">PADA Jazza</h1>
+                        <h1 class="group-hover:scale-[0.9] transition-all duration-700 text-helper-yellow group-hover:text-helper-gray text-2xl font-medium font-montserrat">Person Name</h1>
                     </div>
                 </div>
             </div>
