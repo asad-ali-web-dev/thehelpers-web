@@ -9,10 +9,6 @@ import About from '../pages/About.vue'
 const routes = [
     {
         path: '/',
-        redirect: '/welcome'
-    },
-    {
-        path: '/welcome',
         name: 'Home',
         component: Home
     },
