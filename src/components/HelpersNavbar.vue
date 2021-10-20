@@ -23,7 +23,7 @@
         <div class="relative w-full h-full">
             <div class="absolute bottom-0 h-[45px] w-full shadow-inner bg-helper-yellow hidden lg:flex flex-row items-center justify-center">
                 <div class="flex flex-row items-center gap-7 h-full">
-                    <p class="text-white text-lg">Lorem ipsum dolor sit amet.</p>
+                    <p class="text-white text-lg capitalize">Considering to help others with your wealth</p>
                     <button class="transition-all duration-500 capitalize px-4 hover:px-5 h-[calc(100%-10px)] bg-white text-helper-yellow rounded-md hover:shadow-lg">Donate Now</button>
                 </div>
             </div>
